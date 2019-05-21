@@ -1,0 +1,57 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix namus: <http://example.com/> .
+
+# requete sparql
+
+# Liste des personnes disparues qui aurait plus de 80 ans actuellement :
+Select ?person where {
+?person a namus:disparu. 
+?person namus:ageActuel ?age. 
+}
+
+# Nombre de personne disparue groupé par ethnie :
+Select ?ethnie, (count (?person) as ?nbPersonne) where {
+?person a namus:disparu. 
+?person namus:origine ?ethnie. 
+} group by ?ethnie
+
+# Liste des villes triées par nombre de disparition :
+Select ?ville, (count (?person) as ?nbPersonne) where {
+?person a namus:disparu. 
+?person namus:ville ?ville. 
+} group by ?ville
+
+# Liste des personnes disparues qui avaient moins de 20 ans lors de la disparition :
+Select ?person where {
+?person a namus:disparu. 
+?person namus:ageDisparition ?age. 
+FILTER (?age <20)
+}
+
+# Personnes ayant disparu depuis plus de 20 ans:
+
+Select ?person where {
+?person a namus:disparu. 
+?person namus:ageDisparition ?ageDisparition. 
+?person namus:ageActuel ?ageActuel. 
+FILTER ((?ageActuel - ?ageDisparition) >20)
+}
+# Personnes disparu ayant été vu la dernière fois à San Francisco après 1990: 
+
+Select ?person where {
+?person a namus:disparu. 
+?lieu a namus:lieu.
+?person namus:a-ete-vu ?lieu. 
+?lieu namus:ville “San Francisco”. 
+FILTER ((?ageActuel - ?ageDisparition) >20)
+}
+
+# Nombre de personne par âge lors de la disparition :
+Select ?age, (count(?person) as ?nbPersonne) where {
+?person a namus:disparu. 
+?person namus:ageDisparition ?age. 
+}group by ?age

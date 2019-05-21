@@ -1,0 +1,53 @@
+prefixes:
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  dbpedia: "http://dbpedia.org/resource/"
+  foaf: "http://xmlns.com/foaf/0.1/"
+  namus: "https://www.namus.gov/MissingPersons/Case#/"
+  schema: "https://schema.org/"
+  dcterms: "http://purl.org/dc/terms/"
+  ex: "http://example.org/"
+  vivo: "http://vivoweb.org/ontology/core#"
+
+mappings:
+  peoplemissing:
+    source: dataset-source
+    subject: namus:$(namus2number)
+    predicateobjects:
+      - [a, foaf:Person]
+      - [rdfs:label, $(firstname) $(middlename) $(lastname)]
+      - [foaf:firstname, $(fisrtname)]
+      - [vivo:middleName, $(middlename)]
+      - [foaf:lastname, $(lastname)]
+      - [foaf:age, $(currentageto)]
+      - [ex:agemissing, $(computedmissingminage)]
+      - [foaf:gender, $(gender)]
+      - [foaf:img, https://public.opendatasoft.com/explore/dataset/namus-missings/files/$(image.id)/download/'~iri]
+      - [dcterms:modified, $(modifieddatetime)]
+      - [xsd:date, $(dateoflastcontact)]
+      - [dbpedia:ethnicity, $(raceethnicity)]
+      - [schema:url, $(link)~iri]
+      - ['http://dbpedia.org/ontology/city', namus:city/$(cityoflastcontact)~iri]
+      - ['http://dbpedia.org/ontology/county', namus:county/$(countydisplaynameoflastcontact)~iri]
+      - ['http://dbpedia.org/ontology/state', namus:state/$(statedisplaynameoflastcontact)~iri]
+  city:
+    source: dataset-source
+    subject: namus:city/$(cityoflastcontact)
+    predicateobjects:
+      - [a, 'http://dbpedia.org/ontology/city']
+      - [rdfs:label, $(cityoflastcontact)]
+  county:
+    source: dataset-source
+    subject: namus:county/$(countydisplaynameoflastcontact)
+    predicateobjects:
+      - [a, 'http://dbpedia.org/ontology/county']
+      - [rdfs:label, $(countydisplaynameoflastcontact)]
+  state:
+    source: dataset-source
+    subject: namus:state/$(statedisplaynameoflastcontact)
+    predicateobjects:
+      - [a, 'http://dbpedia.org/ontology/state']
+      - [rdfs:label, $(statedisplaynameoflastcontact)]
+sources:
+  dataset-source: [data.json~jsonpath, '$.records.[*].fields']
