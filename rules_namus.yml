@@ -16,10 +16,10 @@ mappings:
     subject: namus:$(namus2number)
     predicateobjects:
       - [a, foaf:Person]
-      - [rdfs:label, $(firstname) $(middlename) $(lastname)]
-      - [foaf:firstname, $(fisrtname)]
+      - [rdfs:label, $(firstname) $(lastname)]
+      - [foaf:firstName, $(firstname)]
       - [vivo:middleName, $(middlename)]
-      - [foaf:lastname, $(lastname)]
+      - [foaf:lastName, $(lastname)]
       - [foaf:age, $(currentageto)]
       - [ex:agemissing, $(computedmissingminage)]
       - [foaf:gender, $(gender)]

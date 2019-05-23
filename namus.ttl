@@ -1,0 +1,2192 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <https://schema.org/>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix namus: <https://www.namus.gov/MissingPersons/Case#/>.
+@prefix ex: <http://example.org/>.
+@prefix vivo: <http://vivoweb.org/ontology/core#>.
+
+<https://www.namus.gov/MissingPersons/Case#/39268> a foaf:Person;
+    rdfs:label "Naola Kearney";
+    foaf:firstName "Naola";
+    foaf:lastName "Kearney";
+    foaf:age "67";
+    ex:agemissing "33";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/cf74d1c3574d91fb0dae857f10a8a77b/download/'>;
+    dcterms:modified "2018-05-28T23:41:26+00:00";
+    xsd:date "1984-05-15";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39268>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Clinton>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Custer>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OK>.
+<https://www.namus.gov/MissingPersons/Case#/30611> a foaf:Person;
+    rdfs:label "Robert Carroll";
+    foaf:firstName "Robert";
+    foaf:lastName "Carroll";
+    foaf:age "67";
+    ex:agemissing "60";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/975f0bef8c33d3a4d56c02a0aa69e12c/download/'>;
+    dcterms:modified "2018-05-28T23:27:47+00:00";
+    xsd:date "2011-10-14";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/30611>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Pleasantville>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Atlantic>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NJ>.
+<https://www.namus.gov/MissingPersons/Case#/43322> a foaf:Person;
+    rdfs:label "Shawnta Pankey";
+    foaf:firstName "Shawnta";
+    vivo:middleName "Larae";
+    foaf:lastName "Pankey";
+    foaf:age "25";
+    ex:agemissing "25";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/88b1066e551a223718fc7913afbd6f48/download/'>;
+    dcterms:modified "2018-05-28T21:08:03+00:00";
+    xsd:date "2018-04-15";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43322>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Grangeville>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Idaho>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/ID>.
+<https://www.namus.gov/MissingPersons/Case#/40262> a foaf:Person;
+    rdfs:label "Sasha Jones";
+    foaf:firstName "Sasha";
+    vivo:middleName "Marche";
+    foaf:lastName "Jones";
+    foaf:age "18";
+    ex:agemissing "18";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/7486f5cfa4dc5ab77b2b9fb43e797bba/download/'>;
+    dcterms:modified "2018-05-28T20:52:45+00:00";
+    xsd:date "2017-10-12";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/40262>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Strongsville>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Cuyahoga>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/43288> a foaf:Person;
+    rdfs:label "Kylaya Loving";
+    foaf:firstName "Kylaya";
+    foaf:lastName "Loving";
+    foaf:age "16";
+    ex:agemissing "16";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/e3a1d7461a5d53c4451b0e140044f27d/download/'>;
+    dcterms:modified "2018-05-28T20:49:34+00:00";
+    xsd:date "2017-11-29";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43288>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Columbus>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Franklin>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/41220> a foaf:Person;
+    rdfs:label "Amy Hambrick";
+    foaf:firstName "Amy";
+    vivo:middleName "Nicole";
+    foaf:lastName "Hambrick";
+    foaf:age "30";
+    ex:agemissing "29";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/353843b0b1a798e5e195ef498e3ed35f/download/'>;
+    dcterms:modified "2018-05-28T20:37:20+00:00";
+    xsd:date "2017-11-10";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41220>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Youngstown>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Mahoning>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/41555> a foaf:Person;
+    rdfs:label "Shawn Antill";
+    foaf:firstName "Shawn";
+    vivo:middleName "Luke";
+    foaf:lastName "Antill";
+    foaf:age "24";
+    ex:agemissing "24";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3d6b5c7842237582ae61475b282b6f0c/download/'>;
+    dcterms:modified "2018-05-28T20:36:37+00:00";
+    xsd:date "2017-12-23";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41555>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Cadiz>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Harrison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/32965> a foaf:Person;
+    rdfs:label "Catherine Howard";
+    foaf:firstName "Catherine";
+    vivo:middleName "A.";
+    foaf:lastName "Howard";
+    foaf:age "108";
+    ex:agemissing "65";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/356147a0eba067b0de19e7857fe824ff/download/'>;
+    dcterms:modified "2018-05-28T15:48:00+00:00";
+    xsd:date "1975-06-25";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/32965>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Elmont>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Nassau>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NY>.
+<https://www.namus.gov/MissingPersons/Case#/39641> a foaf:Person;
+    rdfs:label "Joseph Williams";
+    foaf:firstName "Joseph";
+    vivo:middleName "John";
+    foaf:lastName "Williams";
+    foaf:age "57";
+    ex:agemissing "56";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3cd6877a973c9c9d52eb11058bbf40ed/download/'>;
+    dcterms:modified "2018-05-28T12:55:10+00:00";
+    xsd:date "2017-04-25";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39641>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Tazewell>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Claiborne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TN>.
+<https://www.namus.gov/MissingPersons/Case#/38018> a foaf:Person;
+    rdfs:label "Justine Flynn";
+    foaf:firstName "Justine";
+    vivo:middleName "Gabrielle";
+    foaf:lastName "Flynn";
+    foaf:age "56";
+    ex:agemissing "21";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3d1d77d09e90eea5604744f8a0890077/download/'>;
+    dcterms:modified "2018-05-28T04:14:00+00:00";
+    xsd:date "1982-09-09";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/38018>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/20064> a foaf:Person;
+    rdfs:label "Korrina Sagers Malinoski";
+    foaf:firstName "Korrina";
+    vivo:middleName "Lynne";
+    foaf:lastName "Sagers Malinoski";
+    foaf:age "57";
+    ex:agemissing "26";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/8d019e428541d800c14d3ff161e38258/download/'>;
+    dcterms:modified "2018-05-28T03:24:15+00:00";
+    xsd:date "1987-11-21";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/20064>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Moncks%20Corner%2C%20Mount%20Holly>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Berkeley>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/SC>.
+<https://www.namus.gov/MissingPersons/Case#/11439> a foaf:Person;
+    rdfs:label "William Kent";
+    foaf:firstName "William";
+    vivo:middleName "Safirstein";
+    foaf:lastName "Kent";
+    foaf:age "27";
+    ex:agemissing "20";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/07bd94626736be0432248e365b9ecf86/download/'>;
+    dcterms:modified "2018-05-28T03:04:16+00:00";
+    xsd:date "2010-10-19";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/11439>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Beaufort>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Beaufort>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/SC>.
+<https://www.namus.gov/MissingPersons/Case#/23314> a foaf:Person;
+    rdfs:label "Heather Elvis";
+    foaf:firstName "Heather";
+    vivo:middleName "Rachelle";
+    foaf:lastName "Elvis";
+    foaf:age "23";
+    ex:agemissing "19";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/98596016e1d0e86e2248a7d843074beb/download/'>;
+    dcterms:modified "2018-05-28T03:00:51+00:00";
+    xsd:date "2013-12-18";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/23314>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Myrtle%20Beach>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Horry>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/SC>.
+<https://www.namus.gov/MissingPersons/Case#/10947> a foaf:Person;
+    rdfs:label "Kimberly Stoner";
+    foaf:firstName "Kimberly";
+    vivo:middleName "Lynn";
+    foaf:lastName "Stoner";
+    foaf:age "43";
+    ex:agemissing "35";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/dfce4c5a0b0a6d8310f98c520d9f4b6d/download/'>;
+    dcterms:modified "2018-05-27T23:53:14+00:00";
+    xsd:date "2010-07-24";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/10947>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Royal%20Oak>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Oakland>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/10412> a foaf:Person;
+    rdfs:label "Carol De Arment";
+    foaf:firstName "Carol";
+    foaf:lastName "De Arment";
+    foaf:age "70";
+    ex:agemissing "36";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/5a6ee8a746057f4bddaa4145e5a16f61/download/'>;
+    dcterms:modified "2018-05-27T23:43:37+00:00";
+    xsd:date "1983-10-26";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/10412>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Troy>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Oakland>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/40264> a foaf:Person;
+    rdfs:label "JONATHAN HAMBY";
+    foaf:firstName "JONATHAN";
+    vivo:middleName "ALAN";
+    foaf:lastName "HAMBY";
+    foaf:age "38";
+    ex:agemissing "37";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3b52b51368f7c84dbdc8cddd0871cf82/download/'>;
+    dcterms:modified "2018-05-27T23:43:21+00:00";
+    xsd:date "2017-02-26";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/40264>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Mishawaka>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Elkhart>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/IN>.
+<https://www.namus.gov/MissingPersons/Case#/13920> a foaf:Person;
+    rdfs:label "Cindy Lesko";
+    foaf:firstName "Cindy";
+    vivo:middleName "Marie";
+    foaf:lastName "Lesko";
+    foaf:age "54";
+    ex:agemissing "30";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/9d5cb3fefb9b2a8c018d6246a57d9502/download/'>;
+    dcterms:modified "2018-05-27T23:42:22+00:00";
+    xsd:date "1994-10-23";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/13920>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/St.%20Clair%20Shores>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Macomb>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/41406> a foaf:Person;
+    rdfs:label "Danielle Watson";
+    foaf:firstName "Danielle";
+    vivo:middleName "Louise";
+    foaf:lastName "Watson";
+    foaf:age "32";
+    ex:agemissing "31";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/cb4f2ef264cade57f7a67e7eb6dd8cf8/download/'>;
+    dcterms:modified "2018-05-27T23:30:54+00:00";
+    xsd:date "2017-06-08";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41406>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Redford>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Wayne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/42287> a foaf:Person;
+    rdfs:label "Amanda Bullock";
+    foaf:firstName "Amanda";
+    vivo:middleName "Christine";
+    foaf:lastName "Bullock";
+    foaf:age "30";
+    ex:agemissing "23";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/5dfa0139602f94b15018867901c22a31/download/'>;
+    dcterms:modified "2018-05-27T23:15:16+00:00";
+    xsd:date "2011-01-20";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/42287>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Clarkston>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Oakland>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/41702> a foaf:Person;
+    rdfs:label "James Ryding";
+    foaf:firstName "James";
+    vivo:middleName "Albert";
+    foaf:lastName "Ryding";
+    foaf:age "82";
+    ex:agemissing "81";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/cb71bda3b643f4e69b593738fd855544/download/'>;
+    dcterms:modified "2018-05-27T22:46:16+00:00";
+    xsd:date "2017-12-11";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41702>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Niagara%20Falls>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Niagara>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NY>.
+<https://www.namus.gov/MissingPersons/Case#/11115> a foaf:Person;
+    rdfs:label "Brandy Hall";
+    foaf:firstName "Brandy";
+    vivo:middleName "lynn";
+    foaf:lastName "Hall";
+    foaf:age "44";
+    ex:agemissing "32";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/19bbb96dc242f0c39d551a06d297011f/download/'>;
+    dcterms:modified "2018-05-27T21:38:08+00:00";
+    xsd:date "2006-08-17";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/11115>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Malabar>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Brevard>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/FL>.
+<https://www.namus.gov/MissingPersons/Case#/40945> a foaf:Person;
+    rdfs:label "William Higgins";
+    foaf:firstName "William";
+    vivo:middleName "Alfred";
+    foaf:lastName "Higgins";
+    foaf:age "84";
+    ex:agemissing "35";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/22c0438a3ca25b3f007b30d366fc04c9/download/'>;
+    dcterms:modified "2018-05-27T20:22:32+00:00";
+    xsd:date "1969-04-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/40945>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/McKeesport>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Allegheny>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/42348> a foaf:Person;
+    rdfs:label "Nadine Mendonca";
+    foaf:firstName "Nadine";
+    vivo:middleName "Joyce";
+    foaf:lastName "Mendonca";
+    foaf:age "52";
+    ex:agemissing "25";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ea3e4c1411cf28954a1e71d38b162ad7/download/'>;
+    dcterms:modified "2018-05-27T20:17:47+00:00";
+    xsd:date "1991-07-12";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/42348>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Fall%20River>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Bristol>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MA>.
+<https://www.namus.gov/MissingPersons/Case#/27882> a foaf:Person;
+    rdfs:label "David Alford";
+    foaf:firstName "David";
+    vivo:middleName "Emmett";
+    foaf:lastName "Alford";
+    foaf:age "40";
+    ex:agemissing "36";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/d257ee446e5aa0028b9ad4f540eec1b4/download/'>;
+    dcterms:modified "2018-05-27T16:31:14+00:00";
+    xsd:date "2014-08-24";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/27882>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Boise>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Ada>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/ID>;
+    a foaf:Person;
+    rdfs:label "David Alford";
+    foaf:firstName "David";
+    vivo:middleName "Emmett";
+    foaf:lastName "Alford";
+    foaf:age "40";
+    ex:agemissing "36";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/d257ee446e5aa0028b9ad4f540eec1b4/download/'>;
+    dcterms:modified "2018-05-27T16:31:14+00:00";
+    xsd:date "2014-08-24";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/27882>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Boise>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Ada>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/ID>.
+<https://www.namus.gov/MissingPersons/Case#/39409> a foaf:Person;
+    rdfs:label "Donnie Martin III";
+    foaf:firstName "Donnie";
+    vivo:middleName "Ray";
+    foaf:lastName "Martin III";
+    foaf:age "32";
+    ex:agemissing "31";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/4dabd1b1ec1aa2b79aa3a70d459fa29e/download/'>;
+    dcterms:modified "2018-05-27T15:51:30+00:00";
+    xsd:date "2017-08-03";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39409>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Madison%20Heights>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Oakland>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/29446> a foaf:Person;
+    rdfs:label "Lora Skaggs";
+    foaf:firstName "Lora";
+    foaf:lastName "Skaggs";
+    foaf:age "98";
+    ex:agemissing "27";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/504a565c9f7c21ac6fd73cbdc0d8cd1b/download/'>;
+    dcterms:modified "2018-05-27T15:03:20+00:00";
+    xsd:date "1948-01-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/29446>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Charleston>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Kanawha>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WV>.
+<https://www.namus.gov/MissingPersons/Case#/42157> a foaf:Person;
+    rdfs:label "Kaycee Everest";
+    foaf:firstName "Kaycee";
+    vivo:middleName "Fae";
+    foaf:lastName "Everest";
+    foaf:age "22";
+    ex:agemissing "21";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3e5c238c5d5018aa69eb6621b78fc241/download/'>;
+    dcterms:modified "2018-05-27T11:37:23+00:00";
+    xsd:date "2018-01-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/42157>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Phoenix>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Maricopa>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/AZ>.
+<https://www.namus.gov/MissingPersons/Case#/43520> a foaf:Person;
+    rdfs:label "Anita Qvist";
+    foaf:firstName "Anita";
+    vivo:middleName "Anne";
+    foaf:lastName "Qvist";
+    foaf:age "54";
+    ex:agemissing "15";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/68539b57cc8dbde591ea03cb782050e2/download/'>;
+    dcterms:modified "2018-05-27T09:59:59+00:00";
+    xsd:date "1979-01-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43520>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/32151> a foaf:Person;
+    rdfs:label "Rosemarie Roginski";
+    foaf:firstName "Rosemarie";
+    foaf:lastName "Roginski";
+    foaf:age "66";
+    ex:agemissing "21";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ebd0a061472d585a1608be6550338dd3/download/'>;
+    dcterms:modified "2018-05-27T09:44:19+00:00";
+    xsd:date "1973-01-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/32151>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Ambridge>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Beaver>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/20436> a foaf:Person;
+    rdfs:label "Paula Lynch";
+    foaf:firstName "Paula";
+    vivo:middleName "Agnes";
+    foaf:lastName "Lynch";
+    foaf:age "61";
+    ex:agemissing "21";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/d05749c582c48a8f8e5d5f2b00e4d702/download/'>;
+    dcterms:modified "2018-05-27T09:37:38+00:00";
+    xsd:date "1978-01-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/20436>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Sandusky>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Erie>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/43465> a foaf:Person;
+    rdfs:label "Jerome Reid";
+    foaf:firstName "Jerome";
+    vivo:middleName "C";
+    foaf:lastName "Reid";
+    foaf:age "54";
+    ex:agemissing "53";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/30b4efa3b960bf06e8e72ff59f29f03d/download/'>;
+    dcterms:modified "2018-05-27T04:05:30+00:00";
+    xsd:date "2017-07-27";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43465>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Evesham%20Township>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Burlington>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NJ>.
+<https://www.namus.gov/MissingPersons/Case#/41980> a foaf:Person;
+    rdfs:label "Christopher Oien";
+    foaf:firstName "Christopher";
+    vivo:middleName "David";
+    foaf:lastName "Oien";
+    foaf:age "29";
+    ex:agemissing "28";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/0ef2759b7b41a2c6066080860c7c026c/download/'>;
+    dcterms:modified "2018-05-27T01:18:05+00:00";
+    xsd:date "2018-01-15";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41980>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Deadwood>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Lawrence>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/SD>.
+<https://www.namus.gov/MissingPersons/Case#/21804> a foaf:Person;
+    rdfs:label "Judith Thomas";
+    foaf:firstName "Judith";
+    vivo:middleName "Kathryn";
+    foaf:lastName "Thomas";
+    foaf:age "57";
+    ex:agemissing "24";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/dffaf9beb4c7a04e0ea1745af0158219/download/'>;
+    dcterms:modified "2018-05-26T22:59:32+00:00";
+    xsd:date "1985-10-31";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/21804>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/North%20Little%20Rock>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Pulaski>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/AR>.
+<https://www.namus.gov/MissingPersons/Case#/17682> a foaf:Person;
+    rdfs:label "Deborah Owens";
+    foaf:firstName "Deborah";
+    vivo:middleName "Diane";
+    foaf:lastName "Owens";
+    foaf:age "63";
+    ex:agemissing "23";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/2b32fb348a7429231fdb842071b08f45/download/'>;
+    dcterms:modified "2018-05-26T20:13:36+00:00";
+    xsd:date "1978-11-19";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/17682>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Butte%20County>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Butte>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/34050> a foaf:Person;
+    rdfs:label "Pearl Pinson";
+    foaf:firstName "Pearl";
+    foaf:lastName "Pinson";
+    foaf:age "17";
+    ex:agemissing "15";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/8a5cbd6068971cef70e6e2b83f38ba2b/download/'>;
+    dcterms:modified "2018-05-26T18:07:59+00:00";
+    xsd:date "2016-05-25";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/34050>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Vallejo>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Solano>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/33350> a foaf:Person;
+    rdfs:label "Johnathan Hamilton";
+    foaf:firstName "Johnathan";
+    vivo:middleName "Lee";
+    foaf:lastName "Hamilton";
+    foaf:age "30";
+    ex:agemissing "26";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3bff6ff8d8a4d875bed16a3d680f5dde/download/'>;
+    dcterms:modified "2018-05-26T18:02:52+00:00";
+    xsd:date "2015-05-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33350>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Bastrop>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Bastrop>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TX>.
+<https://www.namus.gov/MissingPersons/Case#/41009> a foaf:Person;
+    rdfs:label "William Ellis";
+    foaf:firstName "William";
+    vivo:middleName "James";
+    foaf:lastName "Ellis";
+    foaf:age "25";
+    ex:agemissing "25";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/4fdb54d9914fba8070466cee677811bc/download/'>;
+    dcterms:modified "2018-05-26T18:01:17+00:00";
+    xsd:date "2017-11-21";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41009>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Wyandotte>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Wayne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/18984> a foaf:Person;
+    rdfs:label "Susan Williams";
+    foaf:firstName "Susan";
+    foaf:lastName "Williams";
+    foaf:age "64";
+    ex:agemissing "32";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/25dfc887a9f80a5f5f0731c3229aeeda/download/'>;
+    dcterms:modified "2018-05-26T17:32:58+00:00";
+    xsd:date "1986-09-12";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/18984>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Marina%20Del%20Rey>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/20423> a foaf:Person;
+    rdfs:label "James Kimball";
+    foaf:firstName "James";
+    vivo:middleName "Donald";
+    foaf:lastName "Kimball";
+    foaf:age "49";
+    ex:agemissing "24";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/e1984c7729d4e65bce728eca2d8af169/download/'>;
+    dcterms:modified "2018-05-26T16:05:42+00:00";
+    xsd:date "1993-04-13";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/20423>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Oak%20Park>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Cook>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/IL>.
+<https://www.namus.gov/MissingPersons/Case#/39753> a foaf:Person;
+    rdfs:label "Martin Diaz-Cabanas";
+    foaf:firstName "Martin";
+    foaf:lastName "Diaz-Cabanas";
+    foaf:age "19";
+    ex:agemissing "18";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/6f18ad9f0339993a00cab7b2c9075941/download/'>;
+    dcterms:modified "2018-05-26T16:05:17+00:00";
+    xsd:date "2017-05-27";
+    dbpedia:ethnicity "White / Caucasian;Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39753>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Avon%20Park>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Highlands>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/FL>.
+<https://www.namus.gov/MissingPersons/Case#/39754> a foaf:Person;
+    rdfs:label "Edgar Diaz-Cabanas";
+    foaf:firstName "Edgar";
+    foaf:lastName "Diaz-Cabanas";
+    foaf:age "24";
+    ex:agemissing "23";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/76280aaaf1df09815b7313bff589bbf6/download/'>;
+    dcterms:modified "2018-05-26T16:03:06+00:00";
+    xsd:date "2017-05-27";
+    dbpedia:ethnicity "White / Caucasian;Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39754>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Avon%20Park>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Highlands>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/FL>.
+<https://www.namus.gov/MissingPersons/Case#/12524> a foaf:Person;
+    rdfs:label "Kayla Croft-Payne";
+    foaf:firstName "Kayla";
+    vivo:middleName "Mae";
+    foaf:lastName "Croft-Payne";
+    foaf:age "26";
+    ex:agemissing "18";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/411e5456bc92559af1fcf9e9b079624d/download/'>;
+    dcterms:modified "2018-05-26T14:40:03+00:00";
+    xsd:date "2010-05-05";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/12524>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Vader>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Lewis>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WA>.
+<https://www.namus.gov/MissingPersons/Case#/32432> a foaf:Person;
+    rdfs:label "William McSorley";
+    foaf:firstName "William";
+    vivo:middleName "James";
+    foaf:lastName "McSorley";
+    foaf:age "55";
+    ex:agemissing "49";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/84b90c0f39c096d82dd08e02fc707387/download/'>;
+    dcterms:modified "2018-05-26T13:32:54+00:00";
+    xsd:date "2011-09-29";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/32432>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Quakertown>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Bucks>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/20362> a foaf:Person;
+    rdfs:label "Norman Thurber";
+    foaf:firstName "Norman";
+    vivo:middleName "Ray";
+    foaf:lastName "Thurber";
+    foaf:age "74";
+    ex:agemissing "49";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3eb9bc7f42d3cdbecba99df576897330/download/'>;
+    dcterms:modified "2018-05-26T12:48:45+00:00";
+    xsd:date "1993-04-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/20362>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/SAN%20FELIPE%20BAJA>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/33661> a foaf:Person;
+    rdfs:label "Pamela Lovitt";
+    foaf:firstName "Pamela";
+    vivo:middleName "Marie";
+    foaf:lastName "Lovitt";
+    foaf:age "59";
+    ex:agemissing "18";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/e905b93911460175b6560a38cb5faeee/download/'>;
+    dcterms:modified "2018-05-26T10:09:01+00:00";
+    xsd:date "1977-09-26";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33661>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Westland>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Wayne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/23624> a foaf:Person;
+    rdfs:label "Carol Rodriguez";
+    foaf:firstName "Carol";
+    vivo:middleName "Louise";
+    foaf:lastName "Rodriguez";
+    foaf:age "73";
+    ex:agemissing "29";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/9c6c9157b288b00567dbcac86d4b8e08/download/'>;
+    dcterms:modified "2018-05-26T10:07:47+00:00";
+    xsd:date "1973-08-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/23624>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Spencer>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Worcester>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MA>.
+<https://www.namus.gov/MissingPersons/Case#/39536> a foaf:Person;
+    rdfs:label "Ana Guevara Valdez";
+    foaf:firstName "Ana";
+    vivo:middleName "Daisy";
+    foaf:lastName "Guevara Valdez";
+    foaf:age "64";
+    ex:agemissing "20";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/14ac2229907407402b4d5fc107279292/download/'>;
+    dcterms:modified "2018-05-26T10:04:12+00:00";
+    xsd:date "1974-01-01";
+    dbpedia:ethnicity "White / Caucasian;Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39536>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Los%20Angeles>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/23572> a foaf:Person;
+    rdfs:label "Joanna Jenkins";
+    foaf:firstName "Joanna";
+    vivo:middleName "Marie";
+    foaf:lastName "Jenkins";
+    foaf:age "63";
+    ex:agemissing "23";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/b6791cd1d00722d37f2a7689f0e864c7/download/'>;
+    dcterms:modified "2018-05-26T09:59:52+00:00";
+    xsd:date "1977-11-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/23572>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Oak%20Hill>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Jackson>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OH>.
+<https://www.namus.gov/MissingPersons/Case#/33753> a foaf:Person;
+    rdfs:label "Eva Ridall";
+    foaf:firstName "Eva";
+    vivo:middleName "Marie";
+    foaf:lastName "Ridall";
+    foaf:age "56";
+    ex:agemissing "15";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/460cd788b0834c5dbe4bbdba207e3b72/download/'>;
+    dcterms:modified "2018-05-26T09:58:59+00:00";
+    xsd:date "1977-05-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33753>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Bradenton>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Manatee>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/FL>.
+<https://www.namus.gov/MissingPersons/Case#/20752> a foaf:Person;
+    rdfs:label "Ellen Bresch";
+    foaf:firstName "Ellen";
+    vivo:middleName "Patricia";
+    foaf:lastName "Bresch";
+    foaf:age "90";
+    ex:agemissing "49";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3651f8e71bb7c96a3c27cd91eea9f345/download/'>;
+    dcterms:modified "2018-05-26T09:56:22+00:00";
+    xsd:date "1977-03-09";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/20752>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Ft%20Mitchell>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Kenton>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/KY>.
+<https://www.namus.gov/MissingPersons/Case#/41374> a foaf:Person;
+    rdfs:label "Maria Placz";
+    foaf:firstName "Maria";
+    foaf:lastName "Placz";
+    foaf:age "68";
+    ex:agemissing "26";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/640d59042bfbb0cf2e90b567dd17801f/download/'>;
+    dcterms:modified "2018-05-26T09:47:01+00:00";
+    xsd:date "1976-07-21";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/41374>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Ventura>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Ventura>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/26000> a foaf:Person;
+    rdfs:label "Mary Robinson";
+    foaf:firstName "Mary";
+    vivo:middleName "C.";
+    foaf:lastName "Robinson";
+    foaf:age "64";
+    ex:agemissing "22";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/357ec2c32a175ac64723f33739a292bd/download/'>;
+    dcterms:modified "2018-05-26T09:45:57+00:00";
+    xsd:date "1976-06-10";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/26000>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Rochester>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Monroe>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NY>.
+<https://www.namus.gov/MissingPersons/Case#/31485> a foaf:Person;
+    rdfs:label "Marla Thomas";
+    foaf:firstName "Marla";
+    vivo:middleName "Jean";
+    foaf:lastName "Thomas";
+    foaf:age "66";
+    ex:agemissing "22";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/c157b6ef15e46d4cb21462c90b350306/download/'>;
+    dcterms:modified "2018-05-26T09:43:44+00:00";
+    xsd:date "1974-12-11";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/31485>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Anacortes>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Skagit>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WA>.
+<https://www.namus.gov/MissingPersons/Case#/33109> a foaf:Person;
+    rdfs:label "Lynne Brown";
+    foaf:firstName "Lynne";
+    foaf:lastName "Brown";
+    foaf:age "69";
+    ex:agemissing "25";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/d8abf83f2354bc1f152c762433fe702e/download/'>;
+    dcterms:modified "2018-05-26T09:34:48+00:00";
+    xsd:date "1975-02-22";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33109>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Estacada>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Clackamas>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OR>.
+<https://www.namus.gov/MissingPersons/Case#/13988> a foaf:Person;
+    rdfs:label "Dorothy Goroshko";
+    foaf:firstName "Dorothy";
+    vivo:middleName "P";
+    foaf:lastName "Goroshko";
+    foaf:age "83";
+    ex:agemissing "40";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/426e2715843fbdf281b5c18095381376/download/'>;
+    dcterms:modified "2018-05-26T09:33:22+00:00";
+    xsd:date "1975-06-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/13988>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Brighton>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Suffolk>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MA>.
+<https://www.namus.gov/MissingPersons/Case#/29364> a foaf:Person;
+    rdfs:label "JUDY FOSTER";
+    foaf:firstName "JUDY";
+    vivo:middleName "MARIE";
+    foaf:lastName "FOSTER";
+    foaf:age "65";
+    ex:agemissing "37";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/05d98d182fa926bc0d04a59d1667868a/download/'>;
+    dcterms:modified "2018-05-26T08:58:53+00:00";
+    xsd:date "1990-09-08";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/29364>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Grand%20Saline>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Van%20Zandt>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TX>.
+<https://www.namus.gov/MissingPersons/Case#/22082> a foaf:Person;
+    rdfs:label "Jami Sherer";
+    foaf:firstName "Jami";
+    vivo:middleName "Sue";
+    foaf:lastName "Sherer";
+    foaf:age "54";
+    ex:agemissing "26";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/5dcd6f4669e56679904e1e1dbe14272a/download/'>;
+    dcterms:modified "2018-05-26T08:52:50+00:00";
+    xsd:date "1990-09-30";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/22082>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Redmond>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/King>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WA>.
+<https://www.namus.gov/MissingPersons/Case#/38554> a foaf:Person;
+    rdfs:label "Patricia Castillo";
+    foaf:firstName "Patricia";
+    vivo:middleName "Ann";
+    foaf:lastName "Castillo";
+    foaf:age "48";
+    ex:agemissing "21";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/6c07a44822fa613535128e4959964f1d/download/'>;
+    dcterms:modified "2018-05-26T08:43:14+00:00";
+    xsd:date "1991-06-01";
+    dbpedia:ethnicity "White / Caucasian;Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/38554>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Houston>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Harris>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TX>.
+<https://www.namus.gov/MissingPersons/Case#/34547> a foaf:Person;
+    rdfs:label "Kelly McCrary";
+    foaf:firstName "Kelly";
+    vivo:middleName "Jo";
+    foaf:lastName "McCrary";
+    foaf:age "49";
+    ex:agemissing "22";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/af9c34a27e7c13fed7d56af32c9497c6/download/'>;
+    dcterms:modified "2018-05-26T08:42:01+00:00";
+    xsd:date "1991-06-08";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/34547>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/ANDERSON>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Madison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/IN>.
+<https://www.namus.gov/MissingPersons/Case#/24658> a foaf:Person;
+    rdfs:label "Cheryl Grose";
+    foaf:firstName "Cheryl";
+    vivo:middleName "Laverne";
+    foaf:lastName "Grose";
+    foaf:age "66";
+    ex:agemissing "39";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/6707696d03c2c5f8526288d07873b9e1/download/'>;
+    dcterms:modified "2018-05-26T08:33:22+00:00";
+    xsd:date "1991-07-06";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/24658>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Tigard>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Washington>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OR>.
+<https://www.namus.gov/MissingPersons/Case#/24384> a foaf:Person;
+    rdfs:label "Tracy Zandstra";
+    foaf:firstName "Tracy";
+    vivo:middleName "Sue";
+    foaf:lastName "Zandstra";
+    foaf:age "56";
+    ex:agemissing "29";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ff9dad3d633be7d1ec86b70ee0a6ab50/download/'>;
+    dcterms:modified "2018-05-26T08:28:37+00:00";
+    xsd:date "1991-11-15";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/24384>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Stirling%20City>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Butte>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/26726> a foaf:Person;
+    rdfs:label "Antoinette Burlison";
+    foaf:firstName "Antoinette";
+    vivo:middleName "Renea";
+    foaf:lastName "Burlison";
+    foaf:age "74";
+    ex:agemissing "47";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/0d04318112c1f41b34e93a51e1a710e5/download/'>;
+    dcterms:modified "2018-05-26T08:25:24+00:00";
+    xsd:date "1991-12-14";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/26726>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Hamtramck>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Wayne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/25796> a foaf:Person;
+    rdfs:label "Robert Harris";
+    foaf:firstName "Robert";
+    vivo:middleName "W";
+    foaf:lastName "Harris";
+    foaf:age "54";
+    ex:agemissing "21";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/9fe3510429e69a7793c0c1a4fa8dbc1c/download/'>;
+    dcterms:modified "2018-05-26T08:12:08+00:00";
+    xsd:date "1985-11-05";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/25796>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jamestown>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Newport>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/RI>.
+<https://www.namus.gov/MissingPersons/Case#/25797> a foaf:Person;
+    rdfs:label "Stephen Harris";
+    foaf:firstName "Stephen";
+    vivo:middleName "J";
+    foaf:lastName "Harris";
+    foaf:age "53";
+    ex:agemissing "20";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/2fb9e5631d46b290cd4e084e5ab23ef6/download/'>;
+    dcterms:modified "2018-05-26T08:11:37+00:00";
+    xsd:date "1985-11-05";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/25797>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jamestown>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Newport>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/RI>.
+<https://www.namus.gov/MissingPersons/Case#/33332> a foaf:Person;
+    rdfs:label "Gregory Georgantis";
+    foaf:firstName "Gregory";
+    vivo:middleName "O";
+    foaf:lastName "Georgantis";
+    foaf:age "71";
+    ex:agemissing "33";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/58d22ae83e9ef4afade5a4166e9aabe3/download/'>;
+    dcterms:modified "2018-05-26T08:10:44+00:00";
+    xsd:date "1980-10-30";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33332>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Warwick>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Kent>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/RI>.
+<https://www.namus.gov/MissingPersons/Case#/33321> a foaf:Person;
+    rdfs:label "Albert Vigneau";
+    foaf:firstName "Albert";
+    vivo:middleName "C";
+    foaf:lastName "Vigneau";
+    foaf:age "67";
+    ex:agemissing "30";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/53b99b5f9e62062c903d834f770fc82c/download/'>;
+    dcterms:modified "2018-05-26T08:09:47+00:00";
+    xsd:date "1980-10-30";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/33321>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Warwick>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Kent>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/RI>.
+<https://www.namus.gov/MissingPersons/Case#/25178> a foaf:Person;
+    rdfs:label "Lynda Hanley";
+    foaf:firstName "Lynda";
+    vivo:middleName "Joan";
+    foaf:lastName "Hanley";
+    foaf:age "69";
+    ex:agemissing "23";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/c33e97b75a9b3de9a0aeb1346d5edd02/download/'>;
+    dcterms:modified "2018-05-26T08:09:09+00:00";
+    xsd:date "1971-11-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/25178>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Lincoln>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Providence>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/RI>.
+<https://www.namus.gov/MissingPersons/Case#/23906> a foaf:Person;
+    rdfs:label "Bayard Cousins";
+    foaf:firstName "Bayard";
+    vivo:middleName "William";
+    foaf:lastName "Cousins";
+    foaf:age "65";
+    ex:agemissing "22";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3d84a06bde416fb4989152a6ccebf738/download/'>;
+    dcterms:modified "2018-05-26T07:57:08+00:00";
+    xsd:date "1975-02-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/23906>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Virginia%20Beach>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Virginia%20Beach>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/VA>.
+<https://www.namus.gov/MissingPersons/Case#/6187> a foaf:Person;
+    rdfs:label "Darren Hillis";
+    foaf:firstName "Darren";
+    vivo:middleName "Bruce";
+    foaf:lastName "Hillis";
+    foaf:age "59";
+    ex:agemissing "14";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/cdcc2a0ffb25a0ad979bb78ca2855873/download/'>;
+    dcterms:modified "2018-05-26T07:56:08+00:00";
+    xsd:date "1973-03-12";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/6187>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Norfolk>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Norfolk>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/VA>.
+<https://www.namus.gov/MissingPersons/Case#/24127> a foaf:Person;
+    rdfs:label "Sandra Bennett";
+    foaf:firstName "Sandra";
+    foaf:lastName "Bennett";
+    foaf:age "65";
+    ex:agemissing "41";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/16a7fae7df61234f7291116d22f8dbba/download/'>;
+    dcterms:modified "2018-05-26T04:31:47+00:00";
+    xsd:date "1993-11-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/24127>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Anchorage>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Anchorage>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/AK>.
+<https://www.namus.gov/MissingPersons/Case#/22836> a foaf:Person;
+    rdfs:label "Zoe Campos";
+    foaf:firstName "Zoe";
+    vivo:middleName "Gabrielle";
+    foaf:lastName "Campos";
+    foaf:age "22";
+    ex:agemissing "18";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/edf58e30327d70fbf2d5a0191a695246/download/'>;
+    dcterms:modified "2018-05-26T02:50:45+00:00";
+    xsd:date "2013-11-17";
+    dbpedia:ethnicity "White / Caucasian;Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/22836>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Lubbock>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Lubbock>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TX>.
+<https://www.namus.gov/MissingPersons/Case#/30454> a foaf:Person;
+    rdfs:label "Mary Enhelder";
+    foaf:firstName "Mary";
+    vivo:middleName "Ruth";
+    foaf:lastName "Enhelder";
+    foaf:age "47";
+    ex:agemissing "24";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ee5c8d65a7e957094f967abf6f78f2b4/download/'>;
+    dcterms:modified "2018-05-26T02:31:01+00:00";
+    xsd:date "1995-02-16";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/30454>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/La%20Mesa>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/San%20Diego>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/31371> a foaf:Person;
+    rdfs:label "Patricia Taylor";
+    foaf:firstName "Patricia";
+    vivo:middleName "Lynn";
+    foaf:lastName "Taylor";
+    foaf:age "52";
+    ex:agemissing "15";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/a3a9802d32ee6ee172b44febdec85289/download/'>;
+    dcterms:modified "2018-05-26T02:01:42+00:00";
+    xsd:date "1981-08-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/31371>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Tulsa>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Tulsa>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OK>.
+<https://www.namus.gov/MissingPersons/Case#/35088> a foaf:Person;
+    rdfs:label "Steven Whitenight Jr";
+    foaf:firstName "Steven";
+    vivo:middleName "E";
+    foaf:lastName "Whitenight Jr";
+    foaf:age "33";
+    ex:agemissing "30";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/6ea2020a0ffae097fff3b043a7aafce8/download/'>;
+    dcterms:modified "2018-05-26T00:37:39+00:00";
+    xsd:date "2016-01-14";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/35088>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Bloomsburg>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Columbia>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/36703> a foaf:Person;
+    rdfs:label "Ruth Egnoski";
+    foaf:firstName "Ruth";
+    vivo:middleName "Muriel";
+    foaf:lastName "Egnoski";
+    foaf:age "72";
+    ex:agemissing "18";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/3acf58d9116906eda5bff3280cc8aa8d/download/'>;
+    dcterms:modified "2018-05-25T23:23:29+00:00";
+    xsd:date "1964-08-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/36703>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Delavan>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Walworth>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WI>.
+<https://www.namus.gov/MissingPersons/Case#/27800> a foaf:Person;
+    rdfs:label "Peter Shaw";
+    foaf:firstName "Peter";
+    vivo:middleName "Michael";
+    foaf:lastName "Shaw";
+    foaf:age "65";
+    ex:agemissing "21";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/18aa5a1b1404dd2a202e6cc3f17cdb4d/download/'>;
+    dcterms:modified "2018-05-25T23:04:54+00:00";
+    xsd:date "1973-10-04";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/27800>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Berkeley>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Alameda>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/17555> a foaf:Person;
+    rdfs:label "Anna Stefanatos";
+    foaf:firstName "Anna";
+    foaf:lastName "Stefanatos";
+    foaf:age "66";
+    ex:agemissing "44";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/a3142b512c1c30f12556c5512809a81b/download/'>;
+    dcterms:modified "2018-05-25T22:54:56+00:00";
+    xsd:date "1996-06-11";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/17555>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Elkton>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Cecil>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MD>.
+<https://www.namus.gov/MissingPersons/Case#/50296> a foaf:Person;
+    rdfs:label "Darius Brown";
+    foaf:firstName "Darius";
+    vivo:middleName "Dionte";
+    foaf:lastName "Brown";
+    foaf:age "28";
+    ex:agemissing "27";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/f50014d121ff88745f5aad5e3976116d/download/'>;
+    dcterms:modified "2018-05-25T22:45:05+00:00";
+    xsd:date "2018-03-29";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/50296>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Detroit>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Wayne>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/MI>.
+<https://www.namus.gov/MissingPersons/Case#/42435> a foaf:Person;
+    rdfs:label "Angela Gross";
+    foaf:firstName "Angela";
+    foaf:lastName "Gross";
+    foaf:age "52";
+    ex:agemissing "27";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/1d3414f9b4fde4b2f66733556185885c/download/'>;
+    dcterms:modified "2018-05-25T22:37:49+00:00";
+    xsd:date "1993-05-27";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/42435>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Oakland>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Alameda>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/25517> a foaf:Person;
+    rdfs:label "John Scialabba";
+    foaf:firstName "John";
+    vivo:middleName "Robert";
+    foaf:lastName "Scialabba";
+    foaf:age "41";
+    ex:agemissing "23";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/5eb0f4b974c97797e4e91175f33e59bf/download/'>;
+    dcterms:modified "2018-05-25T22:32:48+00:00";
+    xsd:date "2001-02-26";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/25517>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Mountain%20View>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Santa%20Clara>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/29133> a foaf:Person;
+    rdfs:label "Ashley Ceron";
+    foaf:firstName "Ashley";
+    vivo:middleName "Arely";
+    foaf:lastName "Ceron";
+    foaf:age "20";
+    ex:agemissing "16";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/4947f4956d36f002f29aac20c5f83aee/download/'>;
+    dcterms:modified "2018-05-25T22:26:34+00:00";
+    xsd:date "2014-02-26";
+    dbpedia:ethnicity "Hispanic / Latino";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/29133>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Littlerock>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/30326> a foaf:Person;
+    rdfs:label "Steven Davis";
+    foaf:firstName "Steven";
+    vivo:middleName "Allan";
+    foaf:lastName "Davis";
+    foaf:age "55";
+    ex:agemissing "23";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/6de0ccc6653bd3a776c3d1e6153d4078/download/'>;
+    dcterms:modified "2018-05-25T22:23:10+00:00";
+    xsd:date "1986-10-31";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/30326>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/43228> a foaf:Person;
+    rdfs:label "Irma Byler";
+    foaf:firstName "Irma";
+    vivo:middleName "Lee";
+    foaf:lastName "Byler";
+    foaf:age "68";
+    ex:agemissing "67";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/d818586ba57567cdc73a12f97e4fce94/download/'>;
+    dcterms:modified "2018-05-25T22:15:55+00:00";
+    xsd:date "2017-05-09";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43228>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Shreveport>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Caddo>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/LA>.
+<https://www.namus.gov/MissingPersons/Case#/39999> a foaf:Person;
+    rdfs:label "Randy Rutter";
+    foaf:firstName "Randy";
+    vivo:middleName "Reed";
+    foaf:lastName "Rutter";
+    foaf:age "71";
+    ex:agemissing "46";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/7696009d14ba72aaf09252f77dbf70b4/download/'>;
+    dcterms:modified "2018-05-25T21:55:50+00:00";
+    xsd:date "1993-07-16";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/39999>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Harrisburg>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Dauphin>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/17337> a foaf:Person;
+    rdfs:label "James Brady";
+    foaf:firstName "James";
+    vivo:middleName "Elwood";
+    foaf:lastName "Brady";
+    foaf:age "88";
+    ex:agemissing "35";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/f2bd3596f314a08f2694fe92d438a86a/download/'>;
+    dcterms:modified "2018-05-25T21:53:35+00:00";
+    xsd:date "1965-09-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/17337>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Logan>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Logan>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WV>.
+<https://www.namus.gov/MissingPersons/Case#/40954> a foaf:Person;
+    rdfs:label "Wayne Mowery";
+    foaf:firstName "Wayne";
+    vivo:middleName "Leonard";
+    foaf:lastName "Mowery";
+    foaf:age "78";
+    ex:agemissing "78";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/675c0fb2406ad942a535b440660417b4/download/'>;
+    dcterms:modified "2018-05-25T21:51:52+00:00";
+    xsd:date "2017-10-30";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/40954>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/bloomsburg>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Columbia>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/14550> a foaf:Person;
+    rdfs:label "Betty Rhodes";
+    foaf:firstName "Betty";
+    vivo:middleName "Jean";
+    foaf:lastName "Rhodes";
+    foaf:age "58";
+    ex:agemissing "32";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/052947ad92334f79fcbb82e6c8b7133b/download/'>;
+    dcterms:modified "2018-05-25T21:33:07+00:00";
+    xsd:date "1991-12-01";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/14550>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/New%20Orleans>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Orleans>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/LA>.
+<https://www.namus.gov/MissingPersons/Case#/50259> a foaf:Person;
+    rdfs:label "Tyler Long";
+    foaf:firstName "Tyler";
+    vivo:middleName "O";
+    foaf:lastName "Long";
+    foaf:age "16";
+    ex:agemissing "16";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/1bd41d794f017acba52e50a06bdecfdd/download/'>;
+    dcterms:modified "2018-05-25T21:30:21+00:00";
+    xsd:date "2018-04-04";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/50259>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jackson>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Madison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TN>.
+<https://www.namus.gov/MissingPersons/Case#/50261> a foaf:Person;
+    rdfs:label "Kennedy Haymon";
+    foaf:firstName "Kennedy";
+    foaf:lastName "Haymon";
+    foaf:age "17";
+    ex:agemissing "17";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/809e79efbf5dc99be970dc6a9073ed16/download/'>;
+    dcterms:modified "2018-05-25T21:29:40+00:00";
+    xsd:date "2018-01-26";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/50261>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jackson>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Madison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TN>.
+<https://www.namus.gov/MissingPersons/Case#/50260> a foaf:Person;
+    rdfs:label "Zhephriam Powell";
+    foaf:firstName "Zhephriam";
+    foaf:lastName "Powell";
+    foaf:age "16";
+    ex:agemissing "16";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/fe46d5a3d3a7ce8b7fc7dfcbcd42b083/download/'>;
+    dcterms:modified "2018-05-25T21:28:23+00:00";
+    xsd:date "2018-04-10";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/50260>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jackson>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Madison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TN>.
+<https://www.namus.gov/MissingPersons/Case#/28326> a foaf:Person;
+    rdfs:label "Robert Vanzant";
+    foaf:firstName "Robert";
+    vivo:middleName "Gerald";
+    foaf:lastName "Vanzant";
+    foaf:age "62";
+    ex:agemissing "35";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ff2d769dcbd8158ee610d9a995744e8b/download/'>;
+    dcterms:modified "2018-05-25T21:28:03+00:00";
+    xsd:date "1991-05-23";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/28326>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Oklahoma%20City>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Oklahoma>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OK>.
+<https://www.namus.gov/MissingPersons/Case#/50262> a foaf:Person;
+    rdfs:label "Terrishuna Harris";
+    foaf:firstName "Terrishuna";
+    foaf:lastName "Harris";
+    foaf:age "17";
+    ex:agemissing "16";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/db42653099b414b11321174f91e424d1/download/'>;
+    dcterms:modified "2018-05-25T21:27:33+00:00";
+    xsd:date "2017-11-25";
+    dbpedia:ethnicity "Black / African American";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/50262>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Jackson>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Madison>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/TN>.
+<https://www.namus.gov/MissingPersons/Case#/35620> a foaf:Person;
+    rdfs:label "Chester LaBar";
+    foaf:firstName "Chester";
+    vivo:middleName "E";
+    foaf:lastName "LaBar";
+    foaf:age "39";
+    ex:agemissing "37";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/8b7abf5a2cdf6e11577208d8c88558ae/download/'>;
+    dcterms:modified "2018-05-25T20:45:40+00:00";
+    xsd:date "2016-10-02";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/35620>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Johnson%20City>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Broome>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/NY>.
+<https://www.namus.gov/MissingPersons/Case#/8852> a foaf:Person;
+    rdfs:label "Jackie Boyer";
+    foaf:firstName "Jackie";
+    vivo:middleName "Kay";
+    foaf:lastName "Boyer";
+    foaf:age "50";
+    ex:agemissing "12";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/ef6c0822492e14272fa1760e702e6818/download/'>;
+    dcterms:modified "2018-05-25T20:40:54+00:00";
+    xsd:date "1980-05-21";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/8852>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Windsor>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Sonoma>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CA>.
+<https://www.namus.gov/MissingPersons/Case#/43329> a foaf:Person;
+    rdfs:label "Penny Peeler*";
+    foaf:firstName "Penny";
+    vivo:middleName "Yvonne";
+    foaf:lastName "Peeler*";
+    foaf:age "65";
+    ex:agemissing "37";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/64a855d9efd35f658cbde191fb163008/download/'>;
+    dcterms:modified "2018-05-25T20:39:03+00:00";
+    xsd:date "1990-04-25";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/43329>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Enid>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Garfield>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/OK>.
+<https://www.namus.gov/MissingPersons/Case#/14129> a foaf:Person;
+    rdfs:label "Kase Lee";
+    foaf:firstName "Kase";
+    vivo:middleName "Ann";
+    foaf:lastName "Lee";
+    foaf:age "52";
+    ex:agemissing "16";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/09fde5ca879e370b048b23ba6a716095/download/'>;
+    dcterms:modified "2018-05-25T20:10:26+00:00";
+    xsd:date "1982-08-28";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/14129>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Seattle>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/King>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WA>.
+<https://www.namus.gov/MissingPersons/Case#/12825> a foaf:Person;
+    rdfs:label "Yvonne Mestas";
+    foaf:firstName "Yvonne";
+    vivo:middleName "Marie";
+    foaf:lastName "Mestas";
+    foaf:age "50";
+    ex:agemissing "15";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/96ece906deb5e178cead4c022e83675e/download/'>;
+    dcterms:modified "2018-05-25T20:05:08+00:00";
+    xsd:date "1982-11-01";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/12825>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Rocky%20Ford>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Otero>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/CO>.
+<https://www.namus.gov/MissingPersons/Case#/6782> a foaf:Person;
+    rdfs:label "Kristi Vorak";
+    foaf:firstName "Kristi";
+    vivo:middleName "Lynn";
+    foaf:lastName "Vorak";
+    foaf:age "48";
+    ex:agemissing "13";
+    foaf:gender "Female";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/f5ee5b73fd8a7c4981dd5512c746ee82/download/'>;
+    dcterms:modified "2018-05-25T20:03:44+00:00";
+    xsd:date "1982-10-31";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/6782>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Tacoma>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Pierce>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/WA>.
+<https://www.namus.gov/MissingPersons/Case#/7227> a foaf:Person;
+    rdfs:label "Andrew Armstrong";
+    foaf:firstName "Andrew";
+    vivo:middleName "James";
+    foaf:lastName "Armstrong";
+    foaf:age "70";
+    ex:agemissing "43";
+    foaf:gender "Male";
+    foaf:img <https://public.opendatasoft.com/explore/dataset/namus-missings/files/821d86374688c32a9cb86e9cb023f8a3/download/'>;
+    dcterms:modified "2018-05-25T19:49:42+00:00";
+    xsd:date "1992-01-03";
+    dbpedia:ethnicity "White / Caucasian";
+    schema:url <https://www.namus.gov//MissingPersons/Case#/7227>;
+    <http://dbpedia.org/ontology/city> <https://www.namus.gov/MissingPersons/Case#/city/Oakland%20Township>;
+    <http://dbpedia.org/ontology/county> <https://www.namus.gov/MissingPersons/Case#/county/Venango>;
+    <http://dbpedia.org/ontology/state> <https://www.namus.gov/MissingPersons/Case#/state/PA>.
+<https://www.namus.gov/MissingPersons/Case#/city/Clinton> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Clinton".
+<https://www.namus.gov/MissingPersons/Case#/city/Pleasantville> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Pleasantville".
+<https://www.namus.gov/MissingPersons/Case#/city/Grangeville> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Grangeville".
+<https://www.namus.gov/MissingPersons/Case#/city/Strongsville> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Strongsville".
+<https://www.namus.gov/MissingPersons/Case#/city/Columbus> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Columbus".
+<https://www.namus.gov/MissingPersons/Case#/city/Youngstown> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Youngstown".
+<https://www.namus.gov/MissingPersons/Case#/city/Cadiz> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Cadiz".
+<https://www.namus.gov/MissingPersons/Case#/city/Elmont> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Elmont".
+<https://www.namus.gov/MissingPersons/Case#/city/Tazewell> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Tazewell".
+<https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/city/Moncks%20Corner%2C%20Mount%20Holly> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Moncks Corner, Mount Holly".
+<https://www.namus.gov/MissingPersons/Case#/city/Beaufort> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Beaufort".
+<https://www.namus.gov/MissingPersons/Case#/city/Myrtle%20Beach> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Myrtle Beach".
+<https://www.namus.gov/MissingPersons/Case#/city/Royal%20Oak> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Royal Oak".
+<https://www.namus.gov/MissingPersons/Case#/city/Troy> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Troy".
+<https://www.namus.gov/MissingPersons/Case#/city/Mishawaka> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Mishawaka".
+<https://www.namus.gov/MissingPersons/Case#/city/St.%20Clair%20Shores> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "St. Clair Shores".
+<https://www.namus.gov/MissingPersons/Case#/city/Redford> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Redford".
+<https://www.namus.gov/MissingPersons/Case#/city/Clarkston> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Clarkston".
+<https://www.namus.gov/MissingPersons/Case#/city/Niagara%20Falls> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Niagara Falls".
+<https://www.namus.gov/MissingPersons/Case#/city/Malabar> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Malabar".
+<https://www.namus.gov/MissingPersons/Case#/city/McKeesport> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "McKeesport".
+<https://www.namus.gov/MissingPersons/Case#/city/Fall%20River> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Fall River".
+<https://www.namus.gov/MissingPersons/Case#/city/Boise> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Boise";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Boise".
+<https://www.namus.gov/MissingPersons/Case#/city/Madison%20Heights> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Madison Heights".
+<https://www.namus.gov/MissingPersons/Case#/city/Charleston> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Charleston".
+<https://www.namus.gov/MissingPersons/Case#/city/Phoenix> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Phoenix".
+<https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/city/Ambridge> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Ambridge".
+<https://www.namus.gov/MissingPersons/Case#/city/Sandusky> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Sandusky".
+<https://www.namus.gov/MissingPersons/Case#/city/Evesham%20Township> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Evesham Township".
+<https://www.namus.gov/MissingPersons/Case#/city/Deadwood> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Deadwood".
+<https://www.namus.gov/MissingPersons/Case#/city/North%20Little%20Rock> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "North Little Rock".
+<https://www.namus.gov/MissingPersons/Case#/city/Butte%20County> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Butte County".
+<https://www.namus.gov/MissingPersons/Case#/city/Vallejo> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Vallejo".
+<https://www.namus.gov/MissingPersons/Case#/city/Bastrop> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Bastrop".
+<https://www.namus.gov/MissingPersons/Case#/city/Wyandotte> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Wyandotte".
+<https://www.namus.gov/MissingPersons/Case#/city/Marina%20Del%20Rey> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Marina Del Rey".
+<https://www.namus.gov/MissingPersons/Case#/city/Oak%20Park> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Oak Park".
+<https://www.namus.gov/MissingPersons/Case#/city/Avon%20Park> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Avon Park";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Avon Park".
+<https://www.namus.gov/MissingPersons/Case#/city/Vader> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Vader".
+<https://www.namus.gov/MissingPersons/Case#/city/Quakertown> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Quakertown".
+<https://www.namus.gov/MissingPersons/Case#/city/SAN%20FELIPE%20BAJA> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "SAN FELIPE BAJA".
+<https://www.namus.gov/MissingPersons/Case#/city/Westland> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Westland".
+<https://www.namus.gov/MissingPersons/Case#/city/Spencer> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Spencer".
+<https://www.namus.gov/MissingPersons/Case#/city/Los%20Angeles> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Los Angeles".
+<https://www.namus.gov/MissingPersons/Case#/city/Oak%20Hill> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Oak Hill".
+<https://www.namus.gov/MissingPersons/Case#/city/Bradenton> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Bradenton".
+<https://www.namus.gov/MissingPersons/Case#/city/Ft%20Mitchell> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Ft Mitchell".
+<https://www.namus.gov/MissingPersons/Case#/city/Ventura> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Ventura".
+<https://www.namus.gov/MissingPersons/Case#/city/Rochester> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Rochester".
+<https://www.namus.gov/MissingPersons/Case#/city/Anacortes> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Anacortes".
+<https://www.namus.gov/MissingPersons/Case#/city/Estacada> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Estacada".
+<https://www.namus.gov/MissingPersons/Case#/city/Brighton> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Brighton".
+<https://www.namus.gov/MissingPersons/Case#/city/Grand%20Saline> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Grand Saline".
+<https://www.namus.gov/MissingPersons/Case#/city/Redmond> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Redmond".
+<https://www.namus.gov/MissingPersons/Case#/city/Houston> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Houston".
+<https://www.namus.gov/MissingPersons/Case#/city/ANDERSON> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "ANDERSON".
+<https://www.namus.gov/MissingPersons/Case#/city/Tigard> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Tigard".
+<https://www.namus.gov/MissingPersons/Case#/city/Stirling%20City> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Stirling City".
+<https://www.namus.gov/MissingPersons/Case#/city/Hamtramck> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Hamtramck".
+<https://www.namus.gov/MissingPersons/Case#/city/Jamestown> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jamestown";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jamestown".
+<https://www.namus.gov/MissingPersons/Case#/city/Warwick> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Warwick";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Warwick".
+<https://www.namus.gov/MissingPersons/Case#/city/Lincoln> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Lincoln".
+<https://www.namus.gov/MissingPersons/Case#/city/Virginia%20Beach> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Virginia Beach".
+<https://www.namus.gov/MissingPersons/Case#/city/Norfolk> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Norfolk".
+<https://www.namus.gov/MissingPersons/Case#/city/Anchorage> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Anchorage".
+<https://www.namus.gov/MissingPersons/Case#/city/Lubbock> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Lubbock".
+<https://www.namus.gov/MissingPersons/Case#/city/La%20Mesa> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "La Mesa".
+<https://www.namus.gov/MissingPersons/Case#/city/Tulsa> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Tulsa".
+<https://www.namus.gov/MissingPersons/Case#/city/Bloomsburg> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Bloomsburg".
+<https://www.namus.gov/MissingPersons/Case#/city/Delavan> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Delavan".
+<https://www.namus.gov/MissingPersons/Case#/city/Berkeley> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Berkeley".
+<https://www.namus.gov/MissingPersons/Case#/city/Elkton> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Elkton".
+<https://www.namus.gov/MissingPersons/Case#/city/Detroit> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Detroit".
+<https://www.namus.gov/MissingPersons/Case#/city/Oakland> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Oakland".
+<https://www.namus.gov/MissingPersons/Case#/city/Mountain%20View> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Mountain View".
+<https://www.namus.gov/MissingPersons/Case#/city/Littlerock> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Littlerock".
+<https://www.namus.gov/MissingPersons/Case#/city/San%20Francisco> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/city/Shreveport> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Shreveport".
+<https://www.namus.gov/MissingPersons/Case#/city/Harrisburg> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Harrisburg".
+<https://www.namus.gov/MissingPersons/Case#/city/Logan> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Logan".
+<https://www.namus.gov/MissingPersons/Case#/city/bloomsburg> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "bloomsburg".
+<https://www.namus.gov/MissingPersons/Case#/city/New%20Orleans> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "New Orleans".
+<https://www.namus.gov/MissingPersons/Case#/city/Jackson> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jackson";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jackson";
+    a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jackson".
+<https://www.namus.gov/MissingPersons/Case#/city/Oklahoma%20City> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Oklahoma City".
+<https://www.namus.gov/MissingPersons/Case#/city/Jackson> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Jackson".
+<https://www.namus.gov/MissingPersons/Case#/city/Johnson%20City> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Johnson City".
+<https://www.namus.gov/MissingPersons/Case#/city/Windsor> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Windsor".
+<https://www.namus.gov/MissingPersons/Case#/city/Enid> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Enid".
+<https://www.namus.gov/MissingPersons/Case#/city/Seattle> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Seattle".
+<https://www.namus.gov/MissingPersons/Case#/city/Rocky%20Ford> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Rocky Ford".
+<https://www.namus.gov/MissingPersons/Case#/city/Tacoma> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Tacoma".
+<https://www.namus.gov/MissingPersons/Case#/city/Oakland%20Township> a <http://dbpedia.org/ontology/city>;
+    rdfs:label "Oakland Township".
+<https://www.namus.gov/MissingPersons/Case#/county/Custer> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Custer".
+<https://www.namus.gov/MissingPersons/Case#/county/Atlantic> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Atlantic".
+<https://www.namus.gov/MissingPersons/Case#/county/Idaho> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Idaho".
+<https://www.namus.gov/MissingPersons/Case#/county/Cuyahoga> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Cuyahoga".
+<https://www.namus.gov/MissingPersons/Case#/county/Franklin> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Franklin".
+<https://www.namus.gov/MissingPersons/Case#/county/Mahoning> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Mahoning".
+<https://www.namus.gov/MissingPersons/Case#/county/Harrison> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Harrison".
+<https://www.namus.gov/MissingPersons/Case#/county/Nassau> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Nassau".
+<https://www.namus.gov/MissingPersons/Case#/county/Claiborne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Claiborne".
+<https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/county/Berkeley> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Berkeley".
+<https://www.namus.gov/MissingPersons/Case#/county/Beaufort> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Beaufort".
+<https://www.namus.gov/MissingPersons/Case#/county/Horry> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Horry".
+<https://www.namus.gov/MissingPersons/Case#/county/Oakland> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Oakland";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Oakland".
+<https://www.namus.gov/MissingPersons/Case#/county/Elkhart> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Elkhart".
+<https://www.namus.gov/MissingPersons/Case#/county/Macomb> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Macomb".
+<https://www.namus.gov/MissingPersons/Case#/county/Wayne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Wayne".
+<https://www.namus.gov/MissingPersons/Case#/county/Oakland> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Oakland".
+<https://www.namus.gov/MissingPersons/Case#/county/Niagara> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Niagara".
+<https://www.namus.gov/MissingPersons/Case#/county/Brevard> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Brevard".
+<https://www.namus.gov/MissingPersons/Case#/county/Allegheny> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Allegheny".
+<https://www.namus.gov/MissingPersons/Case#/county/Bristol> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Bristol".
+<https://www.namus.gov/MissingPersons/Case#/county/Ada> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Ada";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Ada".
+<https://www.namus.gov/MissingPersons/Case#/county/Oakland> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Oakland".
+<https://www.namus.gov/MissingPersons/Case#/county/Kanawha> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Kanawha".
+<https://www.namus.gov/MissingPersons/Case#/county/Maricopa> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Maricopa".
+<https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/county/Beaver> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Beaver".
+<https://www.namus.gov/MissingPersons/Case#/county/Erie> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Erie".
+<https://www.namus.gov/MissingPersons/Case#/county/Burlington> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Burlington".
+<https://www.namus.gov/MissingPersons/Case#/county/Lawrence> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Lawrence".
+<https://www.namus.gov/MissingPersons/Case#/county/Pulaski> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Pulaski".
+<https://www.namus.gov/MissingPersons/Case#/county/Butte> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Butte".
+<https://www.namus.gov/MissingPersons/Case#/county/Solano> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Solano".
+<https://www.namus.gov/MissingPersons/Case#/county/Bastrop> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Bastrop".
+<https://www.namus.gov/MissingPersons/Case#/county/Wayne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Wayne".
+<https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Los Angeles".
+<https://www.namus.gov/MissingPersons/Case#/county/Cook> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Cook".
+<https://www.namus.gov/MissingPersons/Case#/county/Highlands> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Highlands";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Highlands".
+<https://www.namus.gov/MissingPersons/Case#/county/Lewis> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Lewis".
+<https://www.namus.gov/MissingPersons/Case#/county/Bucks> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Bucks".
+<https://www.namus.gov/MissingPersons/Case#/county/Wayne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Wayne".
+<https://www.namus.gov/MissingPersons/Case#/county/Worcester> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Worcester".
+<https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Los Angeles".
+<https://www.namus.gov/MissingPersons/Case#/county/Jackson> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Jackson".
+<https://www.namus.gov/MissingPersons/Case#/county/Manatee> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Manatee".
+<https://www.namus.gov/MissingPersons/Case#/county/Kenton> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Kenton".
+<https://www.namus.gov/MissingPersons/Case#/county/Ventura> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Ventura".
+<https://www.namus.gov/MissingPersons/Case#/county/Monroe> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Monroe".
+<https://www.namus.gov/MissingPersons/Case#/county/Skagit> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Skagit".
+<https://www.namus.gov/MissingPersons/Case#/county/Clackamas> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Clackamas".
+<https://www.namus.gov/MissingPersons/Case#/county/Suffolk> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Suffolk".
+<https://www.namus.gov/MissingPersons/Case#/county/Van%20Zandt> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Van Zandt".
+<https://www.namus.gov/MissingPersons/Case#/county/King> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "King".
+<https://www.namus.gov/MissingPersons/Case#/county/Harris> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Harris".
+<https://www.namus.gov/MissingPersons/Case#/county/Madison> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Madison".
+<https://www.namus.gov/MissingPersons/Case#/county/Washington> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Washington".
+<https://www.namus.gov/MissingPersons/Case#/county/Butte> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Butte".
+<https://www.namus.gov/MissingPersons/Case#/county/Wayne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Wayne".
+<https://www.namus.gov/MissingPersons/Case#/county/Newport> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Newport";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Newport".
+<https://www.namus.gov/MissingPersons/Case#/county/Kent> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Kent";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Kent".
+<https://www.namus.gov/MissingPersons/Case#/county/Providence> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Providence".
+<https://www.namus.gov/MissingPersons/Case#/county/Virginia%20Beach> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Virginia Beach".
+<https://www.namus.gov/MissingPersons/Case#/county/Norfolk> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Norfolk".
+<https://www.namus.gov/MissingPersons/Case#/county/Anchorage> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Anchorage".
+<https://www.namus.gov/MissingPersons/Case#/county/Lubbock> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Lubbock".
+<https://www.namus.gov/MissingPersons/Case#/county/San%20Diego> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "San Diego".
+<https://www.namus.gov/MissingPersons/Case#/county/Tulsa> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Tulsa".
+<https://www.namus.gov/MissingPersons/Case#/county/Columbia> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Columbia".
+<https://www.namus.gov/MissingPersons/Case#/county/Walworth> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Walworth".
+<https://www.namus.gov/MissingPersons/Case#/county/Alameda> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Alameda".
+<https://www.namus.gov/MissingPersons/Case#/county/Cecil> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Cecil".
+<https://www.namus.gov/MissingPersons/Case#/county/Wayne> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Wayne".
+<https://www.namus.gov/MissingPersons/Case#/county/Alameda> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Alameda".
+<https://www.namus.gov/MissingPersons/Case#/county/Santa%20Clara> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Santa Clara".
+<https://www.namus.gov/MissingPersons/Case#/county/Los%20Angeles> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Los Angeles".
+<https://www.namus.gov/MissingPersons/Case#/county/San%20Francisco> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "San Francisco".
+<https://www.namus.gov/MissingPersons/Case#/county/Caddo> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Caddo".
+<https://www.namus.gov/MissingPersons/Case#/county/Dauphin> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Dauphin".
+<https://www.namus.gov/MissingPersons/Case#/county/Logan> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Logan".
+<https://www.namus.gov/MissingPersons/Case#/county/Columbia> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Columbia".
+<https://www.namus.gov/MissingPersons/Case#/county/Orleans> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Orleans".
+<https://www.namus.gov/MissingPersons/Case#/county/Madison> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Madison";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Madison";
+    a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Madison".
+<https://www.namus.gov/MissingPersons/Case#/county/Oklahoma> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Oklahoma".
+<https://www.namus.gov/MissingPersons/Case#/county/Madison> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Madison".
+<https://www.namus.gov/MissingPersons/Case#/county/Broome> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Broome".
+<https://www.namus.gov/MissingPersons/Case#/county/Sonoma> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Sonoma".
+<https://www.namus.gov/MissingPersons/Case#/county/Garfield> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Garfield".
+<https://www.namus.gov/MissingPersons/Case#/county/King> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "King".
+<https://www.namus.gov/MissingPersons/Case#/county/Otero> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Otero".
+<https://www.namus.gov/MissingPersons/Case#/county/Pierce> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Pierce".
+<https://www.namus.gov/MissingPersons/Case#/county/Venango> a <http://dbpedia.org/ontology/county>;
+    rdfs:label "Venango".
+<https://www.namus.gov/MissingPersons/Case#/state/OK> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OK".
+<https://www.namus.gov/MissingPersons/Case#/state/NJ> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NJ".
+<https://www.namus.gov/MissingPersons/Case#/state/ID> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "ID".
+<https://www.namus.gov/MissingPersons/Case#/state/OH> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH".
+<https://www.namus.gov/MissingPersons/Case#/state/NY> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NY".
+<https://www.namus.gov/MissingPersons/Case#/state/TN> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TN".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/SC> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "SC";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "SC";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "SC".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/IN> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "IN".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/NY> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NY".
+<https://www.namus.gov/MissingPersons/Case#/state/FL> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "FL".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/MA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MA".
+<https://www.namus.gov/MissingPersons/Case#/state/ID> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "ID";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "ID".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/WV> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WV".
+<https://www.namus.gov/MissingPersons/Case#/state/AZ> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "AZ".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/OH> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH".
+<https://www.namus.gov/MissingPersons/Case#/state/NJ> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NJ".
+<https://www.namus.gov/MissingPersons/Case#/state/SD> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "SD".
+<https://www.namus.gov/MissingPersons/Case#/state/AR> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "AR".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/TX> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TX".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/IL> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "IL".
+<https://www.namus.gov/MissingPersons/Case#/state/FL> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "FL";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "FL".
+<https://www.namus.gov/MissingPersons/Case#/state/WA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WA".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/MA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MA".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/OH> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OH".
+<https://www.namus.gov/MissingPersons/Case#/state/FL> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "FL".
+<https://www.namus.gov/MissingPersons/Case#/state/KY> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "KY".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/NY> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NY".
+<https://www.namus.gov/MissingPersons/Case#/state/WA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WA".
+<https://www.namus.gov/MissingPersons/Case#/state/OR> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OR".
+<https://www.namus.gov/MissingPersons/Case#/state/MA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MA".
+<https://www.namus.gov/MissingPersons/Case#/state/TX> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TX".
+<https://www.namus.gov/MissingPersons/Case#/state/WA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WA".
+<https://www.namus.gov/MissingPersons/Case#/state/TX> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TX".
+<https://www.namus.gov/MissingPersons/Case#/state/IN> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "IN".
+<https://www.namus.gov/MissingPersons/Case#/state/OR> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OR".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/RI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "RI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "RI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "RI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "RI";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "RI".
+<https://www.namus.gov/MissingPersons/Case#/state/VA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "VA";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "VA".
+<https://www.namus.gov/MissingPersons/Case#/state/AK> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "AK".
+<https://www.namus.gov/MissingPersons/Case#/state/TX> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TX".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/OK> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OK".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/WI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WI".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/MD> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MD".
+<https://www.namus.gov/MissingPersons/Case#/state/MI> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "MI".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/LA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "LA".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/WV> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WV".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".
+<https://www.namus.gov/MissingPersons/Case#/state/LA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "LA".
+<https://www.namus.gov/MissingPersons/Case#/state/TN> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TN";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TN";
+    a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TN".
+<https://www.namus.gov/MissingPersons/Case#/state/OK> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OK".
+<https://www.namus.gov/MissingPersons/Case#/state/TN> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "TN".
+<https://www.namus.gov/MissingPersons/Case#/state/NY> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "NY".
+<https://www.namus.gov/MissingPersons/Case#/state/CA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CA".
+<https://www.namus.gov/MissingPersons/Case#/state/OK> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "OK".
+<https://www.namus.gov/MissingPersons/Case#/state/WA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WA".
+<https://www.namus.gov/MissingPersons/Case#/state/CO> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "CO".
+<https://www.namus.gov/MissingPersons/Case#/state/WA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "WA".
+<https://www.namus.gov/MissingPersons/Case#/state/PA> a <http://dbpedia.org/ontology/state>;
+    rdfs:label "PA".

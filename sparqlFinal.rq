@@ -1,0 +1,46 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbpediaont: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX namus: <http://example.com/>
+PREFIX ex: <http://example.org/>
+PREFIX : <#>
+
+# requete sparql
+
+# Liste des personnes disparues qui aurait plus de 80 ans actuellement :
+Select ?person ?ageMissing where {
+?person a foaf:Person. 
+?person ex:agemissing ?ageMissing. 
+}
+
+# Nombre de personne disparue groupé par ethnie :
+Select ?ethnie (count(?person) as ?nbPersonne) where {
+?person a foaf:Person. 
+?person dbpedia:ethnicity ?ethnie. 
+} group by ?ethnie
+
+# Liste des personnes disparues qui avaient moins de 20 ans lors de la disparition :
+Select ?person ?age where {
+?person a foaf:Person. 
+?person ex:agemissing ?age. 
+FILTER (xsd:integer(?age) <20)
+}
+
+# Personnes ayant disparu depuis plus de 20 ans:
+Select ?person ?ageDisparition ?ageActuel where {
+?person a foaf:Person. 
+?person ex:agemissing ?ageDisparition. 
+?person foaf:age ?ageActuel. 
+FILTER ((xsd:integer(?ageActuel) - xsd:integer(?ageDisparition)) >20)
+}
+
+# Personnes disparu ayant été vu la dernière fois à San Francisco après 1990: 
+Select ?person where {
+?person a foaf:Person.
+?person dbpediaont:state ?lieu. 
+?lieu rdfs:label ?label. 
+FILTER (?label = "CA")
+}
