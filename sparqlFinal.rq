@@ -37,10 +37,16 @@ Select ?person ?ageDisparition ?ageActuel where {
 FILTER ((xsd:integer(?ageActuel) - xsd:integer(?ageDisparition)) >20)
 }
 
-# Personnes disparu ayant été vu la dernière fois à San Francisco après 1990: 
+# Personnes disparu ayant été vu la dernière fois en Californie: 
 Select ?person where {
 ?person a foaf:Person.
 ?person dbpediaont:state ?lieu. 
 ?lieu rdfs:label ?label. 
 FILTER (?label = "CA")
 }
+
+# Personnes disparu par état: 
+Select ?lieu (count(?person) as ?nbPersonne) where {
+?person a foaf:Person.
+?person dbpediaont:state ?lieu. 
+} group by ?lieu
